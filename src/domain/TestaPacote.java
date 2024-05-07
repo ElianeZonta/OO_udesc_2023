@@ -5,7 +5,7 @@ public class TestaPacote {
         Pessoa p = new Pessoa();
 
 
-        p.nome = "Zé da Silva";
+        //p.nome = "Zé da Silva";
 
         p.setNome("Zé da Silva");
         System.out.println("Nome"+ p.getNome());

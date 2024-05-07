@@ -15,10 +15,11 @@ public class ProgramaPrincipal {
         fulano.setSalario(new BigDecimal("10000.99"));
 
 
-        System.out.println(fulano.nome);
+        /*System.out.println(fulano.nome);
         System.out.println(fulano.endereço);
         System.out.println(fulano.nascimento);
         System.out.println(fulano.salario);
+         */
 
         fulano.apresentarse();
     }
