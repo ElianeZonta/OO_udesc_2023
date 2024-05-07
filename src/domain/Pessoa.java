@@ -4,10 +4,42 @@ import java.math.BigDecimal;
 import java.time.LocalDate;
 
 public class Pessoa {
-   public String nome;
-    public String endereço;
-    public LocalDate nascimento;
-    public BigDecimal salario;
+   private String nome;
+    private String endereço;
+    private LocalDate nascimento;
+    private BigDecimal salario;
+
+    public BigDecimal getSalario() {
+        return salario;
+    }
+
+    public void setSalario(BigDecimal salario) {
+        this.salario = salario;
+    }
+
+    public LocalDate getNascimento() {
+        return nascimento;
+    }
+
+    public void setNascimento(LocalDate nascimento) {
+        this.nascimento = nascimento;
+    }
+
+    public String getEndereço() {
+        return endereço;
+    }
+
+    public void setEndereço(String endereço) {
+        this.endereço = endereço;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
 
     public void apresentarse(){
 

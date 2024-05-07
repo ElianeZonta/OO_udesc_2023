@@ -7,7 +7,10 @@ public class TestaPacote {
 
         p.nome = "Zé da Silva";
 
-        System.out.printf("Nome:" + p.nome);
+        p.setNome("Zé da Silva");
+        System.out.println("Nome"+ p.getNome());
+
+        //System.out.printf("Nome:" + p.nome);
 
     }
 }
