@@ -9,4 +9,13 @@ public class Pessoa {
     public LocalDate nascimento;
     public BigDecimal salario;
 
+    public void apresentarse(){
+
+        System.out.println(this.nome);
+        System.out.println(this.endereço);
+        System.out.println(this.nascimento);
+        System.out.println(this.salario);
+
+
+    }
 }
