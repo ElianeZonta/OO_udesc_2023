@@ -6,6 +6,8 @@ import java.math.BigDecimal;
 import java.time.LocalDate;
 
 public class ProgramaPrincipal {
+
+
     public static void main(String[] args) {
         Pessoa fulano = new Pessoa ();
 
@@ -22,5 +24,12 @@ public class ProgramaPrincipal {
          */
 
         fulano.apresentarse();
+
+
+        Pessoa beltrano = new Pessoa ("Beltrano da Silva","Rua dos Programadores",
+                LocalDate.of(2000,2,15), new BigDecimal("1234.56"));
+
+        beltrano.apresentarse();
+
     }
 }
