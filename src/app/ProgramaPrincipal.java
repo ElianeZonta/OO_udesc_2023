@@ -31,5 +31,10 @@ public class ProgramaPrincipal {
 
         beltrano.apresentarse();
 
+        System.out.println();
+
+        System.out.println(fulano);
+        System.out.println(beltrano);;
+
     }
 }

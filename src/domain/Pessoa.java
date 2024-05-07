@@ -13,6 +13,16 @@ public class Pessoa {
 
     }
 
+    @Override
+    public String toString() {
+        return "Pessoa{" +
+                "nome='" + nome + '\'' +
+                ", endereço='" + endereço + '\'' +
+                ", nascimento=" + nascimento +
+                ", salario=" + salario +
+                '}';
+    }
+
     public Pessoa(String nome, String endereço, LocalDate nascimento, BigDecimal salario) {
         this.nome = nome;
         this.endereço = endereço;
